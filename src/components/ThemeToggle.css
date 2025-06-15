@@ -1,0 +1,32 @@
+
+.theme-toggle {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 1rem; /* ✅ adds spacing from search bar */
+}
+
+.icon {
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.sun {
+  color: #fdd835; /* bright yellow */
+  filter: drop-shadow(0 0 6px #fdd835);
+}
+
+.moon {
+  color: #b2ebf2; /* silver-blue */
+  filter: drop-shadow(0 0 6px #b2ebf2);
+}
+
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark {
+  background-color: #0f0e17;
+  color: #ffffff;
+}
