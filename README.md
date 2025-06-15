@@ -1,17 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+# Flavor Vault 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stylish, interactive product management web app built with **React**, **Redux**, and **Vite**. This project supports **dark/light mode**, **user login/signup**, **sorting**, **favorites**, and more — all in a clean, animated, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔑 Features
 
-## Expanding the ESLint configuration
+- ✅ Add, edit, delete products with image support (URL or file)
+- 🌙☀️ Light and Dark theme toggle with animated icons
+- 🔍 Live search by product name
+- 🔃 Sort products by name or price (ascending/descending)
+- ❤️ Mark products as favorites — persists after refresh
+- 👤 Login / Signup with user roles: Customer & Consumer
+- 📱 Mobile responsive and animated UI
+- ✨ Stylish header, food-themed background, and interactive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Flavor-Vault
-A stylish React-based product management web app with light/dark themes, login/signup, sorting, and favorites — built as a frontend intern task.
->>>>>>> e30be8e81294c67769f5199a6e4d7355854afcd4
+---
+
+## 🚀 Getting Started
+
+### 🛠️ Install & Run Locally
+
+```bash
+git clone https://github.com/JavariaMalik11/Flavor-Vault.git
+cd Flavor-Vault
+npm install
+npm run dev
